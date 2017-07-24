@@ -1,0 +1,9 @@
+import turtle
+slide_length = 100
+turtle.penup()
+turtle.pendown()
+turtle.goto(0,slide_length)
+turtle.goto(slide_length,slide_length)
+turtle.goto(slide_length,0)
+turtle.goto(0,0)
+turtle.mainloop()
